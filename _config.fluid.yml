@@ -83,7 +83,7 @@ fun_features:
 
     # 游标字符
     # Cursor character
-    cursorChar: "_"
+    cursorChar: "❤"
 
     # 是否循环播放效果
     # If true, loop animation
@@ -257,7 +257,7 @@ lazyload:
 version:
   # 每次生成页面后，检测主题是否为最新版本
   # If true, check whether Fluid is the latest version after hexo generate
-  check: true
+  check: false
 
 
 #---------------------------
@@ -287,11 +287,11 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "archive", link: "/archives", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags", icon: "iconfont icon-tags-fill" }
+    - { key: "links", link: "/links", icon: "iconfont icon-link-fill" }
+    - { key: "about", link: "/about", icon: "iconfont icon-user-fill" }
 
 # 搜索栏，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search bar, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -400,7 +400,7 @@ index:
 
   # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If empty, no image will be displayed
-  post_default_img:
+  post_default_img: https://static.zkqiang.cn/images/20200323131541.png-cover
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
@@ -743,7 +743,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/example6.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -761,7 +761,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/example6.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容

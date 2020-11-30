@@ -15,9 +15,9 @@
   
   <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="HEGONGZI">
   <meta name="keywords" content="">
-  <title>about - Mr.He&#39;s Blog</title>
+  <title>Python 解决 InsecurePlatformWarning: A true SSLContext object is not available. - Mr.He&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
 
@@ -33,6 +33,8 @@
     
   
 
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
   
 
 
@@ -53,7 +55,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":90,"cursorChar":"_","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":90,"cursorChar":"❤","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -61,7 +63,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -94,7 +96,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/">
+              <a class="nav-link" href="/archives">
                 <i class="iconfont icon-archive-fill"></i>
                 归档
               </a>
@@ -106,7 +108,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
+              <a class="nav-link" href="/categories">
                 <i class="iconfont icon-category-fill"></i>
                 分类
               </a>
@@ -118,7 +120,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/">
+              <a class="nav-link" href="/tags">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
               </a>
@@ -130,7 +132,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/">
+              <a class="nav-link" href="/links">
                 <i class="iconfont icon-link-fill"></i>
                 友链
               </a>
@@ -142,7 +144,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/">
+              <a class="nav-link" href="/about">
                 <i class="iconfont icon-user-fill"></i>
                 关于
               </a>
@@ -167,14 +169,64 @@
 </nav>
 
     <div class="banner intro-2" id="background" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/img/bg/example3.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="about">
+            <span class="h2" id="subtitle" title="Python 解决 InsecurePlatformWarning: A true SSLContext object is not available.">
               
             </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      HEGONGZI
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-11-30 16:32" pubdate>
+        2020年11月30日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      166 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      2
+       分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- 不蒜子统计文章PV -->
+      <span id="busuanzi_container_page_pv" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="busuanzi_value_page_pv"></span> 次
+      </span>
+    
+  
+</div>
 
             
           </div>
@@ -191,24 +243,119 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Python 解决 InsecurePlatformWarning: A true SSLContext object is not available.</h1>
+            
+              <p class="note note-info">
                 
+                  本文最后更新于：8 分钟前
+                
+              </p>
+            
+            <div class="markdown-body">
+              <h3 id="在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了"><a href="#在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了" class="headerlink" title="在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了:"></a>在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了:</h3><pre><code class="hljs code">Collecting PyMySQL
+&#x2F;Users&#x2F;fdhuang&#x2F;py27&#x2F;lib&#x2F;python2.7&#x2F;site-packages&#x2F;pip&#x2F;_vendor&#x2F;requests&#x2F;packages&#x2F;urllib3&#x2F;util&#x2F;ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https:&#x2F;&#x2F;urllib3.readthedocs.org&#x2F;en&#x2F;latest&#x2F;security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading PyMySQL-0.6.6-py2.py3-none-any.whl (66kB)
+    100% |████████████████████████████████| 69kB 225kB&#x2F;s
+Installing collected packages: PyMySQL
+Successfully installed PyMySQL-0.6.6</code></pre>
+<h3 id="因为SSL的问题，urllib3需要pyopenssl。"><a href="#因为SSL的问题，urllib3需要pyopenssl。" class="headerlink" title="因为SSL的问题，urllib3需要pyopenssl。"></a>因为SSL的问题，urllib3需要pyopenssl。</h3><p>最简单的方法是</p>
+<pre><code class="hljs bash">$ pip install pyopenssl ndg-httpsclient pyasn1</code></pre>
+<p>还需要安装libffi-dev，libssl-dev</p>
+<h3 id="Ubuntu下安装"><a href="#Ubuntu下安装" class="headerlink" title="Ubuntu下安装"></a>Ubuntu下安装</h3><pre><code class="hljs bash">$ sudo apt-get install libffi-dev libssl-dev</code></pre>
 
-<div class="page-content">
-  
-</div>
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/11/30/%E5%89%8D%E7%AB%AF%E6%8A%80%E8%83%BD%E8%AE%AD%E7%BB%83:%20%E9%87%8D%E6%9E%84%E4%B8%80/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">前端技能训练: 重构一</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments">
+                
+                
+  <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'http://example.com/2020/11/30/Python%20%E8%A7%A3%E5%86%B3%20InsecurePlatformWarning/';
+        this.page.identifier = '/2020/11/30/Python%20%E8%A7%A3%E5%86%B3%20InsecurePlatformWarning/';
+      };
+      Fluid.utils.waitElementVisible('disqus_thread', function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + '' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', new Date());
+        (d.head || d.body).appendChild(s);
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the
+      <a target="_blank" href="https://disqus.com/?ref_noscript" rel="nofollow noopener noopener">comments powered by Disqus.</a>
+    </noscript>
+  </div>
+
+
+              </article>
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+  <div class="col-lg-7 mx-auto nopadding-md">
+    <div class="container custom post-custom mx-auto">
+      <img src="https://octodex.github.com/images/jetpacktocat.png" srcset="/img/loading.gif" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">
+    </div>
+  </div>
+
+
     
 
     
@@ -338,7 +485,11 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/tocbot/4.12.0/tocbot.min.js" ></script>
 
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
 
 
 

@@ -15,9 +15,9 @@
   
   <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="HEGONGZI">
   <meta name="keywords" content="">
-  <title>Hello World - Mr.He&#39;s Blog</title>
+  <title>前端技能训练: 重构一 - Mr.He&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
 
@@ -55,7 +55,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":90,"cursorChar":"_","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":90,"cursorChar":"❤","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -96,7 +96,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/">
+              <a class="nav-link" href="/archives">
                 <i class="iconfont icon-archive-fill"></i>
                 归档
               </a>
@@ -108,7 +108,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
+              <a class="nav-link" href="/categories">
                 <i class="iconfont icon-category-fill"></i>
                 分类
               </a>
@@ -120,7 +120,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/">
+              <a class="nav-link" href="/tags">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
               </a>
@@ -132,7 +132,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/">
+              <a class="nav-link" href="/links">
                 <i class="iconfont icon-link-fill"></i>
                 友链
               </a>
@@ -144,7 +144,7 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/">
+              <a class="nav-link" href="/about">
                 <i class="iconfont icon-user-fill"></i>
                 关于
               </a>
@@ -174,7 +174,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Hello World">
+            <span class="h2" id="subtitle" title="前端技能训练: 重构一">
               
             </span>
 
@@ -183,14 +183,14 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-author" aria-hidden="true"></i>
-      John Doe
+      HEGONGZI
     </span>
   
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-11-27 11:12" pubdate>
-        2020年11月27日 上午
+      <time datetime="2020-11-30 16:34" pubdate>
+        2020年11月30日 下午
       </time>
     </span>
   
@@ -201,7 +201,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      75 字
+      1.2k 字
     </span>
   
 
@@ -211,7 +211,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      16
        分钟
     </span>
   
@@ -253,28 +253,108 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">前端技能训练: 重构一</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：3 天前
+                  本文最后更新于：5 分钟前
                 
               </p>
             
             <div class="markdown-body">
-              <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span></code></pre>
+              <p>或许你应该知道了，重构是怎样的，你也知道重构能带来什么。在我刚开始学重构和设计模式的时候，我需要去找一些好的示例，以便于我更好的学习。有时候不得不创造一些更好的场景，来实现这些功能。</p>
+<p>有一天，我发现当我需要我一次又一次地重复讲述某些内容，于是我就计划着把这些应该掌握的技能放到Github上，也就有了[Artisan Stack] 计划。</p>
+<p>每个程序员都不可避免地是一个Coder，一个没有掌握好技能的Coder，算不上是手工艺人，但是是手工人。</p>
+<p>艺，需要有创造性的方法。</p>
+<h1 id="前端技能训练-重构一"><a href="#前端技能训练-重构一" class="headerlink" title="前端技能训练: 重构一"></a><a href="">前端技能训练: 重构一</a></h1><h2 id="为什么重构"><a href="#为什么重构" class="headerlink" title="为什么重构?"></a>为什么重构?</h2><blockquote>
+<p>为了更好的代码。</p>
+</blockquote>
+<p>在经历了一年多的工作之后，我平时的主要工作就是修Bug。刚开始的时候觉得无聊，后来才发现修Bug需要更好的技术。有时候你可能要面对着一坨一坨的代码，有时候你可能要花几天的时间去阅读代码。而，你重写那几十代码可能只会花上你不到一天的时间。但是如果你没办法理解当时为什么这么做，你的修改只会带来更多的bug。修Bug，更多的是维护代码。还是前人总结的那句话对:</p>
+<blockquote>
+<p>写代码容易，读代码难。</p>
+</blockquote>
+<p>假设我们写这些代码只要半天，而别人读起来要一天。为什么不试着用一天的时候去写这些代码，让别人花半天或者更少的时间来理解。</p>
+<p>如果你的代码已经上线，虽然是一坨坨的。但是不要轻易尝试，<code>没有测试的重构</code>。</p>
+<p>从前端开始的原因在于，写得一坨坨且最不容易测试的代码都在前端。</p>
+<p>让我们来看看我们的第一个训练，相当有挑战性。</p>
+<h2 id="重构uMarkdown"><a href="#重构uMarkdown" class="headerlink" title="重构uMarkdown"></a>重构uMarkdown</h2><p>代码及setup请见github: [js-refactor]</p>
+<h3 id="代码说明"><a href="#代码说明" class="headerlink" title="代码说明"></a>代码说明</h3><p><code>uMarkdown</code>是一个用于将Markdown转化为HTML的库。代码看上去就像一个很典型的过程代码:</p>
+<pre><code>/* code */
+while ((stra = micromarkdown.regexobject.code.exec(str)) !== null) &#123;
+  str = str.replace(stra[0], &#39;&lt;code&gt;\n&#39; + micromarkdown.htmlEncode(stra[1]).replace(/\n/gm, &#39;&lt;br/&gt;&#39;).replace(/\ /gm, &#39;&amp;nbsp;&#39;) + &#39;&lt;/code&gt;\n&#39;);
+&#125;
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre>
+/* headlines */
+while ((stra = micromarkdown.regexobject.headline.exec(str)) !== null) &#123;
+  count = stra[1].length;
+  str = str.replace(stra[0], &#39;&lt;h&#39; + count + &#39;&gt;&#39; + stra[2] + &#39;&lt;/h&#39; + count + &#39;&gt;&#39; + &#39;\n&#39;);
+&#125;
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre>
+/* mail */
+while ((stra = micromarkdown.regexobject.mail.exec(str)) !== null) &#123;
+  str = str.replace(stra[0], &#39;&lt;a href=&quot;mailto:&#39; + stra[1] + &#39;&quot;&gt;&#39; + stra[1] + &#39;&lt;/a&gt;&#39;);
+&#125;</code></pre>
+<p>选这个做重构的开始，不仅仅是因为之前在写[EchoesWorks]的时候进行了很多的重构。而且它更适合于，<code>重构到设计模式</code>的理论。让我们在重构完之后，给作者进行pull request吧。</p>
+<p>Markdown的解析过程，有点类似于<code>Pipe and Filters</code>模式(架构模式)。</p>
+<p>Filter即我们在代码中看到的正规表达式集:</p>
+<pre><code>regexobject: &#123;
+    headline: /^(\#&#123;1,6&#125;)([^\#\n]+)$/m,
+    code: /\s\`\`\`\n?([^`]+)\`\`\`/g</code></pre>
+<p>他会匹配对应的Markdown类型，随后进行替换和处理。而``str```，就是管理口的输入和输出。</p>
+<p>接着，我们就可以对其进行简单的重构。</p>
+<h3 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h3><p>(ps: 推荐用WebStrom来做重构，自带重构功能)</p>
+<p>作为一个示例，我们先提出codeHandler方法，即将上面的</p>
+<pre><code>/* code */
+while ((stra = micromarkdown.regexobject.code.exec(str)) !== null) &#123;
+  str = str.replace(stra[0], &#39;&lt;code&gt;\n&#39; + micromarkdown.htmlEncode(stra[1]).replace(/\n/gm, &#39;&lt;br/&gt;&#39;).replace(/\ /gm, &#39;&amp;nbsp;&#39;) + &#39;&lt;/code&gt;\n&#39;);
+&#125;</code></pre>
+<p>提取方法成</p>
+<pre><code>codeFilter: function (str, stra) &#123;
+    return str.replace(stra[0], &#39;&lt;code&gt;\n&#39; + micromarkdown.htmlEncode(stra[1]).replace(/\n/gm, &#39;&lt;br/&gt;&#39;).replace(/\ /gm, &#39;&amp;nbsp;&#39;) + &#39;&lt;/code&gt;\n&#39;);
+  &#125;,</code></pre>
+<p>while语句就成了</p>
+<pre><code>  while ((stra = regexobject.code.exec(str)) !== null) &#123;
+        str = this.codeFilter(str, stra);
+    &#125;</code></pre>
+<p>然后，运行所有的测试。</p>
+<pre><code>grunt test</code></pre>
+<p>同理我们就可以<code>mail</code>、<code>headline</code>等方法进行重构。接着就会变成类似于下面的代码，</p>
+<pre><code>  /* code */
+  while ((execStr = regExpObject.code.exec(str)) !== null) &#123;
+    str = codeHandler(str, execStr);
+  &#125;
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre>
+  /* headlines */
+  while ((execStr = regExpObject.headline.exec(str)) !== null) &#123;
+    str = headlineHandler(str, execStr);
+  &#125;
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+  /* lists */
+  while ((execStr = regExpObject.lists.exec(str)) !== null) &#123;
+    str = listHandler(str, execStr);
+  &#125;
+
+  /* tables */
+  while ((execStr = regExpObject.tables.exec(str)) !== null) &#123;
+    str = tableHandler(str, execStr, strict);
+  &#125;</code></pre>
+<p>然后你也看到了，上面有一堆重复的代码，接着让我们用JavaScript的<code>奇技浮巧</code>，即apply方法，把上面的重复代码变成。</p>
+<pre><code>    [&#39;code&#39;, &#39;headline&#39;, &#39;lists&#39;, &#39;tables&#39;, &#39;links&#39;, &#39;mail&#39;, &#39;url&#39;, &#39;smlinks&#39;, &#39;hr&#39;].forEach(function (type) &#123;
+        while ((stra = regexobject[type].exec(str)) !== null) &#123;
+            str = that[(type + &#39;Handler&#39;)].apply(that, [stra, str, strict]);
+        &#125;
+    &#125;);</code></pre>
+<p>进行测试，blabla，都是过的。</p>
+<pre><code> Markdown
+   ✓ should parse h1~h3
+   ✓ should parse link
+   ✓ should special link
+   ✓ should parse font style
+   ✓ should parse code
+   ✓ should parse ul list
+   ✓ should parse ul table
+   ✓ should return correctly class name</code></pre>
+<p>这样，我们就完成第一个重构训练了~~。</p>
 
             </div>
             <hr>
@@ -291,9 +371,21 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2020/11/30/Markdown%20%E7%9B%B4%E6%8E%A5%E8%BD%AC%E6%8D%A2%E5%85%AC%E4%BC%97%E5%8F%B7%E6%96%87%E7%AB%A0%EF%BC%8C%E4%B8%8D%E5%86%8D%E4%B8%BA%E6%8E%92%E7%89%88%E8%8A%B1%E6%97%B6%E9%97%B4/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Markdown 直接转换公众号文章，不再为排版花时间</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2020/11/30/Python%20%E8%A7%A3%E5%86%B3%20InsecurePlatformWarning/">
+                        <span class="hidden-mobile">Python 解决 InsecurePlatformWarning: A true SSLContext object is not available.</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -309,8 +401,8 @@
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_config = function() {
-        this.page.url = 'http://example.com/2020/11/27/hello-world/';
-        this.page.identifier = '/2020/11/27/hello-world/';
+        this.page.url = 'http://example.com/2020/11/30/%E5%89%8D%E7%AB%AF%E6%8A%80%E8%83%BD%E8%AE%AD%E7%BB%83:%20%E9%87%8D%E6%9E%84%E4%B8%80/';
+        this.page.identifier = '/2020/11/30/%E5%89%8D%E7%AB%AF%E6%8A%80%E8%83%BD%E8%AE%AD%E7%BB%83:%20%E9%87%8D%E6%9E%84%E4%B8%80/';
       };
       Fluid.utils.waitElementVisible('disqus_thread', function () {
         var d = document, s = d.createElement('script');
