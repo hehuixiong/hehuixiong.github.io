@@ -4,7 +4,7 @@
 
 # Site
 title: Mr.He's Blog
-subtitle: ''
+subtitle: '现在的时代，不是属于00后的，是属于脸皮厚的！'
 description: ''
 keywords:
 author: HEGONGZI
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://blog.ithhx.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -98,9 +98,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: stun
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+search:
+  path: search.json
+  field: post
+  content: true

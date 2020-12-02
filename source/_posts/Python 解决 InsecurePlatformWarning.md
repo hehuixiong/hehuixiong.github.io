@@ -1,6 +1,8 @@
 ---
 title: "Python 解决 InsecurePlatformWarning: A true SSLContext object is not available."
-index_img: /img/article/python.jpg
+excerpt: 在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了 Collecting PyMySQL /Users/fdhuang/py27/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79 InsecurePlatformWarning A true SSLContext object is not
+categories:
+  - Python
 ---
 ### 在安装Python库的时候，遇到一些问题。虽然，还是遇到问题了:
 
