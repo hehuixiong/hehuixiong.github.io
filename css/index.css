@@ -744,7 +744,7 @@ body::before {
 }
 .header-inner {
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #2d2e30;
   height: 70vh;
 }
@@ -1219,7 +1219,7 @@ body::before {
   font-size: 16px;
   text-align: center;
   color: #f5f6f7;
-  background-color: #2d2e30;
+  background-color: #1b1d20;
 }
 .footer a {
   color: #c20808;
