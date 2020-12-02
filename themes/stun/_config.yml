@@ -55,6 +55,7 @@ menu:
   categories: /categories/ || fas fa-layer-group
   tags: /tags/ || fas fa-tags
   links: /links/ || fas fa-link
+  about: /about/ || fas fa-user
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
 
@@ -110,7 +111,7 @@ night_mode:
 # The layout for sidebar and content of site.
 layout:
   # The width of the content area in website.
-  content: 850px
+  content: 900px
   # The width of the sidebar in website.
   sidebar: 300px
   # The width between the content and the sidebar.
@@ -376,8 +377,8 @@ heading_line: true
 reward:
   enable: true
   # Your QR code for collecting money.
-  alipay:
-  wechat:
+  alipay: /images/reward/zfb.png
+  wechat: /images/reward/wx.png
 
 # ---------------------------------------------------------------
 # Post config

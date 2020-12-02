@@ -7,7 +7,7 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
 .header {
   &-inner {
     width: 100%;
-    font-size: 16px;
+    font-size: $font-size-header;
     background-color: $header-bg-color;
 
     if (hexo-config('header.enable')) {
@@ -82,8 +82,7 @@ if (hexo-config('header.nav.height') && match('%', hexo-config('header.nav.heigh
       transition: color .2s ease, background-color .2s ease;
 
       &:hover {
-        color: txtColor;
-        background-color: bgColor;
+        color: $header-menu-hover-color;
       }
     }
 
