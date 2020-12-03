@@ -1,5 +1,6 @@
 ---
 title: "Markdown 直接转换公众号文章，不再为排版花时间"
+cover: /images/article/markdown.jpg
 excerpt: 这是我基于一位大佬 @Lyric 开发的项目，进行 Fork 后的二次开发，因为原项目已经几个月没更新，有一些排版 BUG；而且我需要对样式进行个性化定制，有一些逻辑与原项目有冲突之处，所以没有选择 PR。
 categories:
   - Markdown

@@ -1,5 +1,6 @@
 ---
-title: about
-date: 2020-12-02 17:50:29
+title: 关于博主
+top_img: /images/about.jpg
+date: 2020-12-03 10:24:07
+type: about
 ---
-博主比较懒，什么都还没写

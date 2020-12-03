@@ -12,6 +12,7 @@
     "version": "5.2.0"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "hexo": "^5.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -21,7 +22,11 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-pug": "^1.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
-    "hexo-server": "^2.0.0"
+    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-server": "^2.0.0",
+    "hexo-theme-butterfly": "^3.3.0",
+    "hexo-wordcount": "^6.0.1",
+    "or": "^0.2.0",
+    "yarn": "^1.22.10"
   }
 }
