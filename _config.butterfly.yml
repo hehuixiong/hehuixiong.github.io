@@ -10,10 +10,8 @@ rss: /atom.xml
 
 
 # 顶部图设置
-# 首页
-index_img: /images/example.jpg
-# 归档
-archive_img: /images/archive.jpg
+index_img: /images/example.jpg    # 首页
+archive_img: /images/archive.jpg  # 归档
 
 # Content
 excerpt_link: Read More
@@ -39,8 +37,9 @@ show_count: false
 
 # 社交图标
 social:
-  fab fa-github: https://github.com/xxxxx || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fas fa-envelope: mailto:ithhx908@163.com || Email
+  fab fa-facebook-square: https://github.com/hehuixiong || facebook
+  fab fa-twitter-square: https://github.com/hehuixiong || twitter
 # 文章打赏
 reward:
   enable: true
@@ -88,12 +87,12 @@ readmode: true
 # 网站图标
 favicon: /img/favicon.png
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码相关)
 # --------------------------------------
 
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
-highlight_lang: true # show the code language
+highlight_lang: false # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 code_word_wrap: false
 
@@ -104,6 +103,7 @@ copy:
   copyright:
     enable: false
     limit_count: 50
+
 # search (搜索)
 # --------------------------------------
 
@@ -183,13 +183,13 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# Related Articles
+#相关文章
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
-# Displays outdated notice for a post (文章過期提醒)
+# (文章過期提醒)
 noticeOutdate:
   enable: false
   style: flat # style: simple/flat
@@ -198,7 +198,7 @@ noticeOutdate:
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
 
-# Share System (分享功能)
+# (分享功能) Share System
 # --------------------------------------
 
 # AddThis
@@ -219,21 +219,6 @@ addtoany:
   enable: false
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
-# Comments System
-# --------------------------------------
-
-comments:
-  # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
-  use:
-  # - Valine
-  # - Disqus
-  text: true # Display the comment name next to the button
-  # lazyload: The comment system will be load when comment element enters the browser's viewport.
-  # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in top_img
-
 # disqus
 # https://disqus.com/
 disqus:
@@ -251,11 +236,6 @@ disqusjs:
   admin:
   adminLabel:
 
-# livere (來必力)
-# https://www.livere.com/
-livere:
-  uid:
-
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
@@ -264,29 +244,64 @@ gitalk:
   repo:
   owner:
   admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
   createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
 
+# 评论系统
+# --------------------------------------
+
+comments:
+  # Up to two comments system, the first will be shown as default
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
+  use:
+  - Valine
+  # - Disqus
+  text: true # Display the comment name next to the button
+  # lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to true, the comment count will be invalid
+  lazyload: true
+  count: true # Display comment count in top_img
+
+
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  appId: 8reCefaEPyGUfELAuWp33TpW-gzGzoHsz # leancloud application app id
+  appKey: o8jjpUN8qyYduGgSoX1jJjIy  # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  lang: en # i18n: zh-CN/zh-TW/en/ja
-  placeholder: Please leave your footprints # valine comment input placeholder (like: Please leave your footprints)
-  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
+  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
+  placeholder: Valine 目前使用的是Gravatar 作为评论列表头像。请自行登录或注册Gravatar，然后修改自己的头像。评论的时候，留下在Gravatar注册时所使用的邮箱即可。若留下网址, 评论成功后点击评论昵称即可跳转到对应网址。 # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: # valine background
+  serverURLs: https://8recefae.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  bg: https://s3.ax1x.com/2020/11/24/Dtx2NQ.png # valine background
   emojiCDN: # emoji CDN
   enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
   option:
+
+# 首页显示 Comments评论
+newest_comments:
+  enable: true
+  limit: 6
+  avatar: true
+  leancloud:
+    enable: true
+    appId: 8reCefaEPyGUfELAuWp33TpW-gzGzoHsz # leancloud application app id
+    appKey: o8jjpUN8qyYduGgSoX1jJjIy # leancloud application app key
+    serverURL: https://8recefae.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+    default_avatar: monsterid # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  github_issues:
+    enable: false
+    repo:
+  disqus:
+    enable: false
+    forum:
+    api_key:
 
 # utterances
 # https://utteranc.es/
@@ -351,7 +366,7 @@ crisp:
   enable: false
   website_id:
 
-# Footer Settings
+# 底部设置
 # --------------------------------------
 footer:
   owner:
@@ -365,6 +380,247 @@ footer:
     url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action
     text: 粤ICP备xxxx
     icon: /img/icp.png
+
+# the subtitle on homepage (主頁subtitle)
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  # loop (循環打字)
+  loop: true
+  # source:
+  # source调用第三方服务
+  # source: false 关闭调用
+  # source: 1  调用搏天api的随机语录（简体） https://api.btstu.cn/
+  # source: 2  调用一言网的一句话（简体） https://hitokoto.cn/
+  # source: 3  调用一句网（简体） http://yijuzhan.com/
+  # source: 4  调用今日诗词（简体） https://www.jinrishici.com/
+  # subtitle 会先显示 source , 再显示 sub 的内容
+  # source: false
+  # 如果有英文逗号' , ',请使用转义字元 &#44;
+  # 如果有英文双引号' " ',请使用转义字元 &quot;
+  # 开头不允许转义字元，如需要，请把整个句子用双引号包住
+  # 例如 ”&quotNever put off till tomorrow what you can do today&quot"
+  # 如果关闭打字效果，subtitle只会显示sub的第一行文字
+  sub:
+    - 现在的时代，不是属于00后的，是属于脸皮厚的。
+    - 有钱的时候把生活过好，没钱的时候把心情过好，可是没钱心情怎么会好。
+    - 不要等明天交不上差，再找借口，今天就要找好。 _
+    - 你就是个土豆丝，又土又逗，又屌丝。
+    - 累吗？累就对了。舒服是留给有钱人的。
+    - 一顿操作猛如虎，一看工资二千五。
+    - 冬天床以外的地方都是远方，手够不到的地方都是他乡，上个厕所都是出差。
+    - 从今天开始我不会再洗头，因为我要在跨年的时候，为你下一场雪。
+    - 多读点书，要不然你的三观，是由你的亲朋好友决定的。
+    - 国庆中秋假期结束，该收收心，开始准备过年了。
+    - 自己都是一个失败的人，还想教出成功的孩子吗？
+    - 知道备胎为什么是圆的吗？因为方便滚啊。
+    - 所有人都抵不过时间，就像你偶然想起我，问我有没有钱。
+    - 世界上最动听的话，不是我爱你，而是你的肿瘤是良性的！
+    - 算完工资的涨幅后，再算算猪肉的，就会发现自己连猪都不如。
+    - 2021年第一天，说出你的新年愿望，那就一定不会实现。
+    - 只要我足够健忘，痛苦就追不上我。
+    - 只要我不起床，烦恼就永远找不上我。
+    - 健忘和笑点低，真是幸福生活的标配。
+    - 如果生活欺骗了你，不要着急 — 拿出美颜相机，去欺骗生活。
+    - 目前最靠谱的发财方法，就是，你家拆迁了。
+    - 当金钱站起来说话时，所有真理都沉默了。
+    - 西游记告诉我们，有个猪一样的队友，能让团队上西天。
+    - 在现在这个社会，想让别人记住你，只有欠钱不还。
+    - 你最想从母校带走的是什么？最想从母校带走的，是我的学费。
+    - 每天道晚安之后，她其实在切换账号。
+    - 别再说自己是单身狗了，你这个年纪狗都死了。
+    - 只要你多财多亿，凭亿近人，还怕找不到女朋友吗？
+    - 一个人久了，突如其来的关心，都是负担。
+    - 不许再说我朋友坏话，不然我会，情不自禁和你们一起说。
+    - 不能成为想要的自己，最终活成了，不想成为的别人。
+    - 为什么要晒这么黑？因为我不想白活一生。
+    - 夜里想法千万条，早上醒来，还是走老路一条。
+    - 如果吃鱼可以补脑，你这智商，至少要吃一条鲸鱼。
+
+# Loading Animation (加載動畫)
+preloader: true
+
+# Footer Background
+footer_bg: /images/footer.jpg
+# aside (側邊欄)
+# --------------------------------------
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: left # left or right
+  card_author:
+    enable: true
+    description:
+    button:
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/hehuixiong
+  card_announcement: # 公告
+    enable: true
+    content: 欢迎来到我的博客！<br>本站新成立，如有 bug 或建议，欢迎联系<a href="https://ithhx.cn/about/">&nbsp;博主</a>. <br>感谢每位访客的关注！
+  card_recent_post:
+    enable: true
+    limit: 5 # if set 0 will show all
+    sort: date # date or updated
+  card_categories: # 分类
+    enable: true
+    limit: 8 # if set 0 will show all
+    expand: none # none/true/false
+  card_tags: # 标签
+    enable: true
+    limit: 40 # if set 0 will show all
+    color: false
+  card_archives: #归档
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# busuanzi count for PV / UV in site
+# 訪問人數
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# Time difference between publish date and now (網頁運行時間)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
+runtimeshow:
+  enable: true
+  publish_date: 12/1/2020 00:00:00
+
+# dark mode
+darkmode:
+  enable: true
+  # Toggle Button to switch dark/light mode
+  button: true
+  # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
+  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
+  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
+  # autoChangeMode: false
+  autoChangeMode: false
+
+# Lightbox (圖片大圖查看模式)
+# --------------------------------------
+# You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
+
+# medium-zoom
+# https://github.com/francoischalifour/medium-zoom
+medium_zoom: false
+
+# fancybox
+# http://fancyapps.com/fancybox/3/
+fancybox: true
+
+# Tag Plugins settings (標籤外掛)
+# --------------------------------------
+
+# mermaid
+# see https://github.com/knsv/mermaid
+mermaid:
+  enable: false
+  # built-in themes: default/forest/dark/neutral
+  theme: default
+
+# Note (Bootstrap Callout)
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: flat
+  icons: true
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# other
+# --------------------------------------
+
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  appId:
+  appKey:
+  option:
+
+# Pjax [Beta]
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax:
+  enable: false
+  exclude:
+    # - xxxx
+    # - xxxx
+
+# Inject the css and script (aplayer/meting)
+aplayerInject:
+  enable: false
+  per_page: true
+
+# Snackbar (Toast Notification 彈窗)
+# https://github.com/polonel/SnackBar
+# position 彈窗位置
+# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
+snackbar:
+  enable: false
+  position: bottom-left
+  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+
+# Baidu Push (百度推送)
+baidu_push: true
+
+# https://instant.page/
+# prefetch (預加載)
+instantpage: true
+
+# https://github.com/vinta/pangu.js
+# Insert a space between Chinese character and English character (中英文之間添加空格)
+pangu:
+  enable: false
+  field: site # site/post
+
+# Lazyload (圖片懶加載)
+# https://github.com/verlok/lazyload
+lazyload:
+  enable: false
+  post: /img/loading.gif
+
+# PWA
+# See https://github.com/JLHwung/hexo-offline
+# ---------------
+# pwa:
+#   enable: false
+#   manifest: /image/pwa/manifest.json
+#   apple_touch_icon: /image/pwa/apple-touch-icon.png
+#   favicon_32_32: /image/pwa/32.png
+#   favicon_16_16: /image/pwa/16.png
+#   mask_icon: /image/pwa/safari-pinned-tab.svg
+
+# Disable Baidu transformation on mobile devices (禁止百度轉碼)
+disable_baidu_transformation: true
+
+# Open graph meta tags
+# https://developers.facebook.com/docs/sharing/webmasters/
+Open_Graph_meta: true
+
+# Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
+fragment_cache: true
+
+# Add the vendor prefixes to ensure compatibility
+css_prefix: true
 
 # Analysis
 # --------------------------------------
@@ -559,272 +815,13 @@ hr_icon:
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
-# the subtitle on homepage (主頁subtitle)
-subtitle:
-  enable: true
-  # Typewriter Effect (打字效果)
-  effect: true
-  # loop (循環打字)
-  loop: true
-  # source:
-  # source调用第三方服务
-  # source: false 关闭调用
-  # source: 1  调用搏天api的随机语录（简体） https://api.btstu.cn/
-  # source: 2  调用一言网的一句话（简体） https://hitokoto.cn/
-  # source: 3  调用一句网（简体） http://yijuzhan.com/
-  # source: 4  调用今日诗词（简体） https://www.jinrishici.com/
-  # subtitle 会先显示 source , 再显示 sub 的内容
-  # source: false
-  # 如果有英文逗号' , ',请使用转义字元 &#44;
-  # 如果有英文双引号' " ',请使用转义字元 &quot;
-  # 开头不允许转义字元，如需要，请把整个句子用双引号包住
-  # 例如 ”&quotNever put off till tomorrow what you can do today&quot"
-  # 如果关闭打字效果，subtitle只会显示sub的第一行文字
-  sub:
-    - 现在的时代，不是属于00后的，是属于脸皮厚的。
-    - 有钱的时候把生活过好，没钱的时候把心情过好，可是没钱心情怎么会好。
-    - 不要等明天交不上差，再找借口，今天就要找好。 _
-    - 你就是个土豆丝，又土又逗，又屌丝。
-    - 累吗？累就对了。舒服是留给有钱人的。
-    - 一顿操作猛如虎，一看工资二千五。
-    - 冬天床以外的地方都是远方，手够不到的地方都是他乡，上个厕所都是出差。
-    - 从今天开始我不会再洗头，因为我要在跨年的时候，为你下一场雪。
-    - 多读点书，要不然你的三观，是由你的亲朋好友决定的。
-    - 国庆中秋假期结束，该收收心，开始准备过年了。
-    - 自己都是一个失败的人，还想教出成功的孩子吗？
-    - 知道备胎为什么是圆的吗？因为方便滚啊。
-    - 所有人都抵不过时间，就像你偶然想起我，问我有没有钱。
-    - 世界上最动听的话，不是我爱你，而是你的肿瘤是良性的！
-    - 算完工资的涨幅后，再算算猪肉的，就会发现自己连猪都不如。
-    - 2021年第一天，说出你的新年愿望，那就一定不会实现。
-    - 只要我足够健忘，痛苦就追不上我。
-    - 只要我不起床，烦恼就永远找不上我。
-    - 健忘和笑点低，真是幸福生活的标配。
-    - 如果生活欺骗了你，不要着急 — 拿出美颜相机，去欺骗生活。
-    - 目前最靠谱的发财方法，就是，你家拆迁了。
-    - 当金钱站起来说话时，所有真理都沉默了。
-    - 西游记告诉我们，有个猪一样的队友，能让团队上西天。
-    - 在现在这个社会，想让别人记住你，只有欠钱不还。
-    - 你最想从母校带走的是什么？最想从母校带走的，是我的学费。
-    - 每天道晚安之后，她其实在切换账号。
-    - 别再说自己是单身狗了，你这个年纪狗都死了。
-    - 只要你多财多亿，凭亿近人，还怕找不到女朋友吗？
-    - 一个人久了，突如其来的关心，都是负担。
-    - 不许再说我朋友坏话，不然我会，情不自禁和你们一起说。
-    - 不能成为想要的自己，最终活成了，不想成为的别人。
-    - 为什么要晒这么黑？因为我不想白活一生。
-    - 夜里想法千万条，早上醒来，还是走老路一条。
-    - 如果吃鱼可以补脑，你这智商，至少要吃一条鲸鱼。
-
-# Loading Animation (加載動畫)
-preloader: true
-
-# Footer Background
-footer_bg: /images/footer.jpg
-# aside (側邊欄)
-# --------------------------------------
-
-aside:
-  enable: true
-  hide: false
-  button: true
-  mobile: true # display on mobile
-  position: right # left or right
-  card_author:
-    enable: true
-    description:
-    button:
-      icon: fab fa-github
-      text: GitHub
-      link: https://github.com/hehuixiong
-  card_announcement:
-    enable: true
-    content: This is my Blog
-  card_recent_post:
-    enable: true
-    limit: 5 # if set 0 will show all
-    sort: date # date or updated
-  card_categories:
-    enable: true
-    limit: 8 # if set 0 will show all
-    expand: none # none/true/false
-  card_tags:
-    enable: true
-    limit: 40 # if set 0 will show all
-    color: false
-  card_archives:
-    enable: true
-    type: monthly # yearly or monthly
-    format: MMMM YYYY # eg: YYYY年MM月
-    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
-    limit: 8 # if set 0 will show all
-  card_webinfo:
-    enable: true
-    post_count: true
-    last_push_date: true
-
-# busuanzi count for PV / UV in site
-# 訪問人數
-busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
-
-# Time difference between publish date and now (網頁運行時間)
-# Formal: Month/Day/Year Time or Year/Month/Day Time
-runtimeshow:
-  enable: true
-  publish_date: 12/1/2020 00:00:00
-
-# Aside widget - Newest Comments
-newest_comments:
-  enable: true
-  limit: 6
-  avatar: true
-  leancloud:
-    enable: false
-    appId: # leancloud application app id
-    appKey: # leancloud application app key
-    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
-  github_issues:
-    enable: false
-    repo:
-  disqus:
-    enable: false
-    forum:
-    api_key:
-
-# dark mode
-darkmode:
-  enable: true
-  # Toggle Button to switch dark/light mode
-  button: true
-  # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
-  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
-  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
-  # autoChangeMode: false
-  autoChangeMode: false
-
-# Lightbox (圖片大圖查看模式)
-# --------------------------------------
-# You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
-
-# medium-zoom
-# https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
-
-# fancybox
-# http://fancyapps.com/fancybox/3/
-fancybox: true
-
-# Tag Plugins settings (標籤外掛)
-# --------------------------------------
-
-# mermaid
-# see https://github.com/knsv/mermaid
-mermaid:
-  enable: false
-  # built-in themes: default/forest/dark/neutral
-  theme: default
-
-# Note (Bootstrap Callout)
-note:
-  # Note tag style values:
-  #  - simple    bs-callout old alert style. Default.
-  #  - modern    bs-callout new (v2-v3) alert style.
-  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
-  #  - disabled  disable all CSS styles import of note tag.
-  style: flat
-  icons: true
-  border_radius: 3
-  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
-  # Offset also applied to label tag variables. This option can work with disabled note tag.
-  light_bg_offset: 0
-
-# other
-# --------------------------------------
-
-# Artitalk
-# see https://artitalk.js.org/
-artitalk:
-  appId:
-  appKey:
-  option:
-
-# Pjax [Beta]
-# It may contain bugs and unstable, give feedback when you find the bugs.
-# https://github.com/MoOx/pjax
-pjax:
-  enable: false
-  exclude:
-    # - xxxx
-    # - xxxx
-
-# Inject the css and script (aplayer/meting)
-aplayerInject:
-  enable: false
-  per_page: true
-
-# Snackbar (Toast Notification 彈窗)
-# https://github.com/polonel/SnackBar
-# position 彈窗位置
-# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
-snackbar:
-  enable: false
-  position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
-
-# Baidu Push (百度推送)
-baidu_push: false
-
-# https://instant.page/
-# prefetch (預加載)
-instantpage: false
-
-# https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (中英文之間添加空格)
-pangu:
-  enable: false
-  field: site # site/post
-
-# Lazyload (圖片懶加載)
-# https://github.com/verlok/lazyload
-lazyload:
-  enable: false
-  post: /img/loading.gif
-
-# PWA
-# See https://github.com/JLHwung/hexo-offline
-# ---------------
-# pwa:
-#   enable: false
-#   manifest: /image/pwa/manifest.json
-#   apple_touch_icon: /image/pwa/apple-touch-icon.png
-#   favicon_32_32: /image/pwa/32.png
-#   favicon_16_16: /image/pwa/16.png
-#   mask_icon: /image/pwa/safari-pinned-tab.svg
-
-# Disable Baidu transformation on mobile devices (禁止百度轉碼)
-disable_baidu_transformation: true
-
-# Open graph meta tags
-# https://developers.facebook.com/docs/sharing/webmasters/
-Open_Graph_meta: true
-
-# Caches the contents in a fragment, speed up the generation (開啟hexo自帶的緩存,加快生成速度)
-fragment_cache: true
-
-# Add the vendor prefixes to ensure compatibility
-css_prefix: true
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    # - <link rel="stylesheet" href="/css/index.css"> 
   bottom:
     # - <script src="xxxx"></script>
 

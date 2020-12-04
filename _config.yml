@@ -6,7 +6,7 @@
 title: Mr.He's Blog
 subtitle: '现在的时代，不是属于00后的，是属于脸皮厚的！'
 description: ''
-keywords:
+keywords: 个人博客，何惠雄的博客
 author: HEGONGZI
 language: zh-CN
 timezone: ''
@@ -106,6 +106,6 @@ deploy:
   type: ''
 
 search:
-  path: search.json
+  path: search.xml
   field: post
   content: true
