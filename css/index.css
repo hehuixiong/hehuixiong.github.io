@@ -2119,6 +2119,16 @@ blockquote footer cite:before {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 900px) {
+  .layout > div:first-child {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+}
 .layout.hide-aside {
   max-width: 1000px;
 }
@@ -2450,7 +2460,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside_content {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -4511,6 +4521,12 @@ _:future,
 }
 #vcomment .vbtn:hover {
   background: var(--btn-hover-color);
+}
+#vcomment textarea {
+  background: url("https://s3.ax1x.com/2020/11/24/Dtx2NQ.png") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
 }
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
