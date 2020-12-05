@@ -5,6 +5,9 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
+  娱乐 || fas fa-list:
+    - 音乐 || /music/ || fas fa-music
+    - 小说 || /story/ || far fa-comment
   关于: /about/ || fas fa-heart
 rss: /atom.xml
 
@@ -446,7 +449,7 @@ subtitle:
 preloader: true
 
 # Footer Background
-footer_bg: https://cdn.jsdelivr.net/gh/hehuixiong/CDN/blog/images/example.jpg
+footer_bg: https://cdn.jsdelivr.net/gh/hehuixiong/CDN/blog/images/example3.jpg
 # aside (側邊欄)
 # --------------------------------------
 
