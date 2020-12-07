@@ -828,7 +828,7 @@ hr_icon:
 inject:
   head:
     - <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> # 禁止页面放大
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hehuixiong/CDN/blog/css/hehuixiong.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hehuixiong/CDN/blog/css/index.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/font_2009371_z2n39cebnib.css">
   bottom:
     # - <script src="xxxx"></script>
