@@ -384,8 +384,8 @@ footer:
   # ICP 对于部分有备案的域名，可以在ICP配置显示。
   ICP:
     enable: true
-    url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action
-    text: 粤ICP备xxxx
+    url: http://beian.miit.gov.cn
+    text: 粤ICP备2020127029号
     icon: /img/icp.png
 
 # the subtitle on homepage (主頁subtitle)
@@ -768,18 +768,18 @@ activate_power_mode:
   shake: false #  open shake (抖動特效)
   mobile: false
 
-# Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
+# Mouse click effects: fireworks (鼠标點擊效果: 煙火特效)
 fireworks:
   enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
-# Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
+# Mouse click effects: Heart symbol (鼠标點擊效果: 愛心)
 click_heart:
   enable: false
   mobile: false
 
-# Mouse click effects: words (鼠標點擊效果: 文字)
+# Mouse click effects: words (鼠标點擊效果: 文字)
 ClickShowText:
   enable: false
   text:
