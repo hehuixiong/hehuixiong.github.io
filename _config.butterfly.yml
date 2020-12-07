@@ -385,7 +385,7 @@ footer:
   ICP:
     enable: true
     url: http://beian.miit.gov.cn
-    text: 粤ICP备2020127029号
+    text: 粤ICP备2020127029号-1
     icon: /img/icp.png
 
 # the subtitle on homepage (主頁subtitle)
