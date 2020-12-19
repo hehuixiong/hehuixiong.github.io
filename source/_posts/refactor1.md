@@ -1,6 +1,6 @@
 ---
 title: "前端技能训练: 重构一"
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/CDN/blog/images/article/refactor.jpeg
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//article/refactor.jpeg
 categories:
   - 前端优化
 tags:
