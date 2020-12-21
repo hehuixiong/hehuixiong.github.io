@@ -1,6 +1,6 @@
 ---
 title: "谈谈敏捷开发"
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//article/agility.jpeg
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/article/agility.jpeg
 categories:
   - 开发技巧
 ---

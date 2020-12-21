@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//link.jpg
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/link.jpg
 type: "link"
 ---
 

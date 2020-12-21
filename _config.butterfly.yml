@@ -13,8 +13,8 @@ rss: /atom.xml
 
 
 # 顶部图设置
-index_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//example.jpg   # 首页
-archive_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//archive.jpg  # 归档
+index_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/example.jpg   # 首页
+archive_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/archive.jpg  # 归档
 
 # Content
 excerpt_link: Read More
@@ -51,10 +51,10 @@ social:
 reward:
   enable: true
   QR_code:
-    - img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//wechat.png
+    - img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/wechat.png
       link:
       text: 微信
-    - img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//alipay.png
+    - img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/alipay.png
       link:
       text: 支付宝
 
@@ -64,7 +64,7 @@ anchor: true
 
 # 头像
 avatar:
-  img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//avatar.png
+  img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
   effect: false # 头像会一直转圈
 
 # 图片描述
@@ -92,7 +92,7 @@ translate:
 readmode: true
 
 # 网站图标
-favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//avatar.png
+favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -449,7 +449,7 @@ subtitle:
 preloader: true
 
 # Footer Background
-footer_bg: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//example3.jpg
+footer_bg: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/example3.jpg
 # aside (側邊欄)
 # --------------------------------------
 

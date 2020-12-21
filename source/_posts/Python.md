@@ -1,6 +1,6 @@
 ---
 title: "Python 解决 InsecurePlatformWarning"
-cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host//article/python1.jpeg
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/article/python1.jpeg
 categories:
   - Python
 ---
