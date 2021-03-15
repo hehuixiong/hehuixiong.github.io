@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mr.He's Blog
+title: Qing's Blog
 subtitle: '现在的时代，不是属于00后的，是属于脸皮厚的！'
 description: ''
-keywords: 个人博客，何惠雄的博客
-author: HEGONGZI
+keywords: 擎天网络工作室博客
+author: 擎天网络工作室
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://ithhx.cn
+url: http://blog.ithhx.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

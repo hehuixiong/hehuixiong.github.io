@@ -64,7 +64,7 @@ anchor: true
 
 # 头像
 avatar:
-  img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
+  img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/qt_avatar.png
   effect: false # 头像会一直转圈
 
 # 图片描述
@@ -92,7 +92,7 @@ translate:
 readmode: true
 
 # 网站图标
-favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
+favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/qt_avatar.png
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -468,7 +468,7 @@ aside:
       link: https://github.com/hehuixiong
   card_announcement: # 公告
     enable: true
-    content: 欢迎来到我的博客！<br>本站新成立，如有 bug 或建议，欢迎联系<a href="https://ithhx.cn/about/">&nbsp;博主</a>. <br>感谢每位访客的关注！
+    content: 欢迎来到我的博客！<br>本站新成立，如有 bug 或建议，欢迎联系<a href="https://blog.ithhx.cn/about/">&nbsp;博主</a>. <br>感谢每位访客的关注！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

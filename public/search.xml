@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>答题小程序添加流量主流程</title>
+      <link href="2021/03/15/addllz/"/>
+      <url>2021/03/15/addllz/</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一步：登录答题后台管理系统"><a href="#第一步：登录答题后台管理系统" class="headerlink" title="第一步：登录答题后台管理系统"></a>第一步：登录答题后台管理系统</h3><ul><li>选择系统配置-基础设置，找到流量主配置</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-11~10_23_44.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/addllz/1.png"></p><h3 id="第二步：登录微信小程序公众平台"><a href="#第二步：登录微信小程序公众平台" class="headerlink" title="第二步：登录微信小程序公众平台"></a>第二步：登录微信小程序公众平台</h3><ul><li>在推广菜单找到流量主，点击广告管理-立即创建</li><li>根据答题后台的流量主配置进行创建</li><li>将对应的广告位ID添加到答题后台（图一）</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-11~10_23_44.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/addllz/2.png"><br><img src= "https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-11~10_23_44.webp" data-lazy-src="https://cdn.jsdelivr.net/gh/hehuixiong/image-host/addllz/3.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端技能训练: 重构一</title>
       <link href="2020/12/20/refactor1/"/>
       <url>2020/12/20/refactor1/</url>
