@@ -6,9 +6,7 @@ cover: https://s3.ax1x.com/2020/12/07/DxMfhT.jpg
 top_img: https://s3.ax1x.com/2020/12/07/DxMfhT.jpg
 categories: 
     - 耀企云库
-copyright_author: 三·钻 TriDiamond
 copyright_author_href: https://tridiamond.tech/
-copyright_info: 此文章为公司内部文档, 由 <a href="https://tridiamond.tech/">三·钻 TriDiamond</a> 著, 属于存档记录
 ---
 
 # 耀企GIT使用规范 v2.0

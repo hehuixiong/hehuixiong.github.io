@@ -9,7 +9,7 @@ categories:
   - Github Actions
 description: 本篇文章简单介绍了Github Actions的用法，以及一些变量的解释
 keywords: Github Actions
-cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11_16_13.webp'
+cover: 'https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11_10_13.webp'
 photos: https://cdn.jsdelivr.net/gh/ccknbc-backup/photos/blog/2020-10-06~11_10_13.webp
 # top_img: false
 translate_title: why-github-actions-is-so-popular
