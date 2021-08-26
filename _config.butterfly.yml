@@ -92,7 +92,7 @@ translate:
 readmode: true
 
 # 网站图标
-favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/avatar.png
+favicon: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/favicon.ico
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -142,7 +142,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 

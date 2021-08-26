@@ -2,8 +2,8 @@
 title: 耀企GIT使用规范 v2.0
 date: 2020-12-07 15:07:43
 sticky: 1
-cover: https://s3.ax1x.com/2020/12/07/DxMfhT.jpg
-top_img: https://s3.ax1x.com/2020/12/07/DxMfhT.jpg
+cover: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/DxMfhT.jpg
+top_img: https://cdn.jsdelivr.net/gh/hehuixiong/image-host/DxMfhT.jpg
 categories: 
     - 耀企云库
 copyright_author_href: https://tridiamond.tech/
